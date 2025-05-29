@@ -98,4 +98,8 @@ git push -u origin main
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter o texto completo da licença.
+
+---
+
+Desenvolvido por [João Pedro Cicolo](mailto:jpcicolo@gmail.com)
