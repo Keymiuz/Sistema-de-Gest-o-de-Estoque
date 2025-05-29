@@ -53,7 +53,7 @@ Para criar um executável .exe:
 
 3. O executável estará em `dist/main.exe`
 
-## 📂 Estrutura de Arquivos
+## 📂 Estrutura de Arquivos (A estrutura já está aprensentada aqui no Github, mas se você quiser visualizar ela em forma de gráfico)
 
 ```
 sistema-gestao/
@@ -62,7 +62,7 @@ sistema-gestao/
 ├── ui/                    # Interfaces gráficas
 │   ├── janela_produtos.py
 │   ├── janela_faturamento.py
-│   └── ...
+│   └── Outras windows gráficas...
 ├── database.py            # Configuração do banco
 ├── main.py                # Aplicação principal
 ├── requirements.txt       # Dependências
@@ -89,11 +89,6 @@ sistema-gestao/
 
 Para suporte, entre em contato:
 - Email: jpcicolo@gmail.comgit init
-git add .
-git commit -m "Primeiro commit"
-git branch -M main
-git remote add origin https://github.com/seu-usuario/sistema-gestao.git
-git push -u origin main
 - Celular: (11) 97646-8942
 
 ## 📄 Licença
