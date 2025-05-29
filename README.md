@@ -1,6 +1,6 @@
 # Sistema de Gestão Financeira e de Estoque
 
-Sistema completo para gerenciamento de estoque, vendas, compras e despesas, desenvolvido em Python com interface gráfica Tkinter.
+Sistema completo para gerenciamento de estoque, vendas, compras e despesas, desenvolvido em Python com interface gráfica Tkinter e um banco de dados SQLite.
 
 ## 📋 Requisitos do Sistema
 
@@ -88,7 +88,7 @@ sistema-gestao/
 ## ❓ Suporte
 
 Para suporte, entre em contato:
-- Email: jpcicolo@gmail.comgit init
+- Email: jpcicolo@gmail.com
 - Celular: (11) 97646-8942
 
 ## 📄 Licença
