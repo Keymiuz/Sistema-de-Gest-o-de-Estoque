@@ -1,10 +1,10 @@
 import sqlite3
-from database import DATABASE_NAME 
+from database import DATABASE_PATH
 from datetime import datetime
 
 def conectar_bd():
-    conn = sqlite3.connect(DATABASE_NAME)
-    conn.row_factory = sqlite3.Row 
+    conn = sqlite3.connect(DATABASE_PATH)
+    conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
     return conn, cursor
 

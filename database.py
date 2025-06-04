@@ -1,9 +1,13 @@
 import sqlite3
+import os
 
-DATABASE_NAME = 'data/gestao.db'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATABASE_PATH = os.path.join(BASE_DIR, 'data', 'gestao.db')
 
 def conectar_bd():
-    conn = sqlite3.connect(DATABASE_NAME)
+    os.makedirs(os.path.dirname(DATABASE_PATH), exist_ok=True)
+    conn = sqlite3.connect(DATABASE_PATH)
+    conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
     return conn, cursor
 
@@ -74,8 +78,5 @@ def criar_tabelas():
     conn.close()
 
 if __name__ == '__main__':
-    import os
-    if not os.path.exists('data'):
-        os.makedirs('data')
     criar_tabelas()
     print("Banco de dados e tabelas verificados/criados com sucesso!")
